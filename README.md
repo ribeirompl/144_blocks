@@ -14,12 +14,21 @@ Currently the settings file has to be manually edited, where you have control of
 
 ![Settings file](help_images/settings_file.png?raw=true "Settings file")
 
+You can add multiple .mp3 or .wav files into the `tunes/` folder, which will play a random tune, every 10 minutes, when a block is completed.
+
+## Future Plans
+* GUI interface for editing settings file
+* Windows support
+* Better GUI scaling (scrollbar)
+
 ## Dependencies
 Currently, only linux operating systems are supported.
 ```
 Python >= 3.7
 Tkinter >= 8.6
 Pillow >= 6.0.0
+
+ffmpeg >= 3.4.6
 ```
 
 ## Installation
