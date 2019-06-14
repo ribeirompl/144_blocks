@@ -37,6 +37,6 @@ Copy the files into a directory.
 
 To start the application:
 ```sh
-python3 144blocks.py
+python3 144_blocks.py
 ```
 
