@@ -219,6 +219,7 @@ class App:
         curNumBlocks = (curHour)*6 + curMinute//10
         return curNumBlocks
 
+      
 class Activity_Options_Window:
     """Activitity options window for changing linked blocks for 144 Blocks"""
     def __init__(self, master, row, col, colour_settings, app_obj):
